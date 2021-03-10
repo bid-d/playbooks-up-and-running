@@ -1,2 +1,47 @@
 [webservers]
-testservers ansible_host=10.0.1.237
+server1 ansible_host=10.0.1.237
+server2 ansible_host=10.0.1.137
+server3 ansible_host=10.0.1.174
+
+[production]
+delaware.example.com
+georgia.example.com
+maryland.example.com
+newhampshire.example.com
+newjersey.example.com
+newyork.example.com
+northcarolina.example.com
+pennsylvania.example.com
+rhodeisland.example.com
+virginia.example.com
+
+[staging]
+ontario.example.com
+quebec.example.com
+
+[lb]
+delaware.example.com
+
+[web]
+georgia.example.com
+newhampshire.example.com
+newjersey.example.com
+ontario.example.com
+server1
+
+[task]
+newyork.example.com
+northcarolina.example.com
+maryland.example.com
+ontario.example.com
+server2
+
+[rabbitmq]
+pennsylvania.example.com
+quebec.example.com
+server3
+
+[db]
+rhodeisland.example.com
+virginia.example.com
+quebec.examp
